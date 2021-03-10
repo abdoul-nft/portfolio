@@ -153,7 +153,7 @@
                         <ul id="portfolio-flters">
                             <li data-filter="*" class="filter-active">Toutes</li>
                             <li data-filter=".filter-app">App Mobile</li>
-                            <li data-filter=".filter-card">Web Disign</li>
+                            <li data-filter=".filter-design">Web Design</li>
                             <li data-filter=".filter-web">App Web</li>
                         </ul>
                     </div>
@@ -163,14 +163,16 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="{{ asset('img/portfolio/portfolio-1.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('img/portfolio/portfolio-1.png') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 1</h4>
-                                <p>App</p>
+                                <h4>Up Your Performance Basketball Academy (iOS + Android)</h4>
+                                <p>Mobile Application Development</p>
                                 <div class="portfolio-links">
-                                    <a href="{{ asset('img/portfolio/portfolio-1.jpg') }}" data-gallery="portfolioGallery"
-                                        class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                                    <a href="{{ asset('img/portfolio/portfolio-1.png') }}" data-gallery="portfolioGallery"
+                                        class="portfokio-lightbox" title="UYP Basketball Academy"><i
+                                            class="bi bi-plus"></i></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.upyourperformance.upyourperformance"
+                                        title="More Details" target="_blank"><i class="bi bi-link"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -178,14 +180,16 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="{{ asset('img/portfolio/portfolio-2.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('img/portfolio/portfolio-2.png') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Web 3</h4>
-                                <p>Web</p>
+                                <h4>UYP Basketball Academy Dashboard</h4>
+                                <p>Mobile Application Development</p>
                                 <div class="portfolio-links">
-                                    <a href="{{ asset('img/portfolio/portfolio-2.jpg') }}" data-gallery="portfolioGallery"
-                                        class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                                    <a href="{{ asset('img/portfolio/portfolio-2.png') }}" data-gallery="portfolioGallery"
+                                        class="portfokio-lightbox" title="UYP Basketball Academy"><i
+                                            class="bi bi-plus"></i></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.upyourperformance.upyourperformance"
+                                        title="More Details" target="_blank"><i class="bi bi-link"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -195,43 +199,29 @@
                         <div class="portfolio-wrap">
                             <img src="{{ asset('img/portfolio/portfolio-3.jpg') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 2</h4>
-                                <p>App</p>
+                                <h4> Lancer USA Mobile App (iOS + Android)</h4>
+                                <p>Mobile Application Development</p>
                                 <div class="portfolio-links">
                                     <a href="{{ asset('img/portfolio/portfolio-3.jpg') }}" data-gallery="portfolioGallery"
-                                        class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                                        class="portfokio-lightbox" title="Lancer US‪A"><i class="bi bi-plus"></i></a>
+                                    <a href="https://apps.apple.com/us/app/lancer-usa/id639358441" title="More Details"
+                                        target="_blank"><i class="bi bi-link"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-design">
                         <div class="portfolio-wrap">
-                            <img src="{{ asset('img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('img/portfolio/portfolio-4.png') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Card 2</h4>
-                                <p>Card</p>
+                                <h4>Project WireFrame</h4>
+                                <p>WireFrame</p>
                                 <div class="portfolio-links">
-                                    <a href="{{ asset('img/portfolio/portfolio-4.jpg') }}" data-gallery="portfolioGallery"
+                                    <a href="{{ asset('img/portfolio/portfolio-4.png') }}" data-gallery="portfolioGallery"
                                         class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="{{ asset('img/portfolio/portfolio-5.jpg') }}" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Web 2</h4>
-                                <p>Web</p>
-                                <div class="portfolio-links">
-                                    <a href="{{ asset('img/portfolio/portfolio-5.jpg') }}"
-                                        data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i
-                                            class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                                    <a href="https://www.figma.com/file/i2GLyyTOLq11amO3ptXbCM/OFFISHALL?node-id=53%3A2"
+                                        title="More Details" target="_blank"><i class="bi bi-link"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -239,47 +229,66 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="{{ asset('img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('img/portfolio/portfolio-5.png') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>App 3</h4>
-                                <p>App</p>
+                                <h4> Skill Set Connect Mobile App (iOS + Android)‬ </h4>
+                                <p>Mobile Application Development</p>
                                 <div class="portfolio-links">
-                                    <a href="{{ asset('img/portfolio/portfolio-6.jpg') }}"
-                                        data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i
-                                            class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                                    <a href="{{ asset('img/portfolio/portfolio-5.png') }}"
+                                        data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                        title="Skill Set Connec‪t‬ "><i class="bi bi-plus"></i></a>
+                                    <a href="https://apps.apple.com/us/app/skill-set-connect/id1450928887?ls=1"
+                                        title="More Details" target="_blank"><i class="bi bi-link"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-design">
                         <div class="portfolio-wrap">
-                            <img src="{{ asset('img/portfolio/portfolio-7.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('img/portfolio/portfolio-6.png') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Card 1</h4>
-                                <p>Card</p>
+                                <h4>Work revelution</h4>
+                                <p>OFFISHALL</p>
                                 <div class="portfolio-links">
-                                    <a href="{{ asset('img/portfolio/portfolio-7.jpg') }}"
-                                        data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i
+                                    <a href="{{ asset('img/portfolio/portfolio-6.png') }}"
+                                        data-gallery="portfolioGallery" class="portfokio-lightbox" title="OFFISHALL"><i
                                             class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                                    <a href="phttps://www.figma.com/file/i2GLyyTOLq11amO3ptXbCM/OFFISHALL?node-id=54%3A96"
+                                        title="More Details" target="_blank"><i class="bi bi-link"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="{{ asset('img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('img/portfolio/portfolio-7.png') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Card 3</h4>
-                                <p>Card</p>
+                                <h4>420DC.com (iOS + Android)</h4>
+                                <p>Mobile Application Development</p>
                                 <div class="portfolio-links">
-                                    <a href="{{ asset('img/portfolio/portfolio-8.jpg') }}"
-                                        data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i
-                                            class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                                    <a href="{{ asset('img/portfolio/portfolio-7.png') }}"
+                                        data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                        title="420DC.com (iOS + Android)"><i class="bi bi-plus"></i></a>
+                                    <a href="#" title="More Details" target="_blank"><i class="bi bi-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="{{ asset('img/portfolio/portfolio-8.png') }}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Stroke Awareness Foundation (iOS + Android)</h4>
+                                <p>Mobile Application Development</p>
+                                <div class="portfolio-links">
+                                    <a href="{{ asset('img/portfolio/portfolio-8.png') }}"
+                                        data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                        title="Stroke Awareness Foundation"><i class="bi bi-plus"></i></a>
+                                    <a href="https://apps.apple.com/us/app/stroke-awareness-foundation/id956746312"
+                                        title="More Details" target="_blank"><i class="bi bi-link"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -287,15 +296,67 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="{{ asset('img/portfolio/portfolio-9.jpg') }}" class="img-fluid" alt="">
+                            <img src="{{ asset('img/portfolio/portfolio-9.png') }}" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h4>Web 3</h4>
+                                <h4>Le Mail Français(Systeme d'emailing)</h4>
                                 <p>Web</p>
                                 <div class="portfolio-links">
-                                    <a href="{{ asset('img/portfolio/portfolio-9.jpg') }}"
-                                        data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i
+                                    <a href="{{ asset('img/portfolio/portfolio-9.png') }}"
+                                        data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                        title="Le Mail Français"><i class="bi bi-plus"></i></a>
+                                    <a href="https://lemailfrancais.app/fr/presentation" title="More Details"
+                                        target="_blank"><i class="bi bi-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="{{ asset('img/portfolio/portfolio-10.png') }}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Webreathe (creation de Dashboard)</h4>
+                                <p>Web</p>
+                                <div class="portfolio-links">
+                                    <a href="{{ asset('img/portfolio/portfolio-10.png') }}"
+                                        dataWgallery="portfolioGallery" class="portfokio-lightbox" title="webreathe"><i
                                             class="bi bi-plus"></i></a>
-                                    <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                                    <a href="https://www.webreathe.fr/" title="More Details" target="_blank"><i
+                                            class="bi bi-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="{{ asset('img/portfolio/portfolio-11.png') }}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Landrink (Full Platforme)</h4>
+                                <p>Web</p>
+                                <div class="portfolio-links">
+                                    <a href="{{ asset('img/portfolio/portfolio-11.png') }}"
+                                        data-gallery="portfolioGallery" class="portfokio-lightbox" title="Landrink"><i
+                                            class="bi bi-plus"></i></a>
+                                    <a href="http://landrick.vue.themesbrand.com/" title="More Details" target="_blank"><i
+                                            class="bi bi-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="{{ asset('img/portfolio/portfolio-12.png') }}" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>Park Auto Prestige (Réservation de place de parking)</h4>
+                                <p>Web</p>
+                                <div class="portfolio-links">
+                                    <a href="{{ asset('img/portfolio/portfolio-12.png') }}"
+                                        data-gallery="portfolioGallery" class="portfokio-lightbox"
+                                        title="Park Auto Prestige"><i class="bi bi-plus"></i></a>
+                                    <a href="https://parkautoprestige.com/" title="More Details" target="_blank"><i
+                                            class="bi bi-link"></i></a>
                                 </div>
                             </div>
                         </div>
